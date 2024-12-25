@@ -14,7 +14,7 @@ def calculate_steps(start, end):
     start_pos = rank_circle[start]
     end_pos = rank_circle[end]
     steps = (end_pos - start_pos) % len(ranks)
-    print(f"Steps from {start} to {end}: {steps}")
+    print(f"steps from {start} to {end}: {steps}")
     return steps
 
 def encode_order(steps):
